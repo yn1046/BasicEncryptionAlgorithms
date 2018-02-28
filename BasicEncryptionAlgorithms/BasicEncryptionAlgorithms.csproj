@@ -56,33 +56,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="ColumnalWindow.xaml.cs">
-      <DependentUpon>ColumnalWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Columnal.cs" />
     <Compile Include="Models\RailFence.cs" />
     <Compile Include="netfx\System\Guard.cs" />
     <Compile Include="netfx\System\Windows\Input\DelegateCommand.cs" />
     <Compile Include="RailFenceWindow.xaml.cs">
       <DependentUpon>RailFenceWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\ColumnalViewModel.cs" />
-    <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\RailFenceViewModel.cs" />
-    <Page Include="ColumnalWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Page Include="RailFenceWindow.xaml">
